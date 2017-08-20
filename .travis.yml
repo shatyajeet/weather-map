@@ -1,0 +1,22 @@
+language: node_js
+cache:
+  directories:
+    - node_modules
+notifications:
+  email: false
+node_js:
+  - '7'
+  - '6'
+  - '4'
+before_script:
+  - npm prune
+script:
+  - npm run test:es6
+  - npm run check-coverage
+  - npm run build
+after_success:
+  - npm run report-coverage
+  - npm run semantic-release
+branches:
+  only:
+    - master
