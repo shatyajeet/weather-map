@@ -58,7 +58,7 @@
       "path": "cz-conventional-changelog"
     },
     "ghooks": {
-      "pre-commit": ""
+      "pre-commit": "npm run test:es6 && npm run check-coverage"
     }
   }
 }
