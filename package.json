@@ -18,6 +18,10 @@
     "build:umd-min": "webpack --output-filename weather-map.min.js -p",
     "validate": "npm run test:es6 && npm run check-coverage"
   },
+  "files": [
+    "dist",
+    "README.md"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/shatyajeet/weather-map.git"
