@@ -7,7 +7,7 @@ export default {
   output: {
     path: join(__dirname, 'dist'),
     libraryTarget: 'umd',
-    library: 'wetherMap',
+    library: 'weatherMap',
   },
   devtool: 'cheap-module-source-map',
   module: {
