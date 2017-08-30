@@ -6,7 +6,7 @@ export default {
   entry: './src/index.js',
   output: {
     path: join(__dirname, 'dist'),
-    libraryTarget: 'umd',
+    libraryTarget: 'window',
     library: 'weatherMap',
   },
   devtool: 'cheap-module-source-map',

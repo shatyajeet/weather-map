@@ -2,7 +2,7 @@
   "name": "weather-map",
   "version": "0.0.0-development",
   "description": "A module to show Google Maps navigation between places along with weather forecasts",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
     "commit": "git-cz",
     "test": "mocha src/**/*.test.js --compilers js:babel-register",
